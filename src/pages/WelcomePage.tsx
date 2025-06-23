@@ -7,6 +7,8 @@ import { generateMessageId, delay } from '../utils';
 const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
+  max-width: 414px;
+  margin: 0 auto;
   height: 100vh;
   background: linear-gradient(135deg, ${props => props.theme.colors.primary} 0%, ${props => props.theme.colors.purple[300]} 100%);
 `;

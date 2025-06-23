@@ -10,6 +10,8 @@ import { generateMessageId, generateQuestId, delay, extractJsonFromText, safeJso
 const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
+  max-width: 414px;
+  margin: 0 auto;
   height: 100vh;
   background: ${props => props.theme.colors.white};
 `;
